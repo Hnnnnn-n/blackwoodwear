@@ -1,0 +1,94 @@
+:root {
+    --primary: #b6895e;
+    --bg: #010101;
+  }
+
+  
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 5%;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-bottom: 1px solid #000000;
+  position: fixed;
+  border: none;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar .navbar-logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    font-style: italic;
+  }
+
+  .navbar .navbar-logo span {
+    color: var(--primary);
+  }
+
+  .navbar .navbar-nav a {
+    font-size: 1.5rem;
+    font-weight: 1000;
+    color: white;
+    display: inline-block;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+.navbar .navbar-nav a:hover{
+    color: var(--primary);
+}
+
+.mb-4 {
+    padding-top: 5rem;
+    text-align: center;
+}
+
+th, td {
+  text-align: center;
+}
+
+td:hover {
+    background-color: var(--primary);
+}
+
+/* Leptop */
+@media (max-width: 1366px) {
+    html {
+      font-size: 75%;
+    }
+  }
+
+/* Tablet */
+@media (max-width: 758px) {
+    html {
+      font-size: 62.5%;
+    }
+}
+
+/* Mobile Phone */
+@media (max-width: 450px) {
+    html {
+      font-size: 45%;
+    }
+  }
+
+footer {
+  background-color: var(--primary);
+  text-align: center;
+  padding: 1rem 0 3rem;
+  margin-top: 3rem;
+}
+  
+footer .credit {
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+  
+footer .credit a {
+  color: var(--bg);
+  font-weight: 700;
+}
